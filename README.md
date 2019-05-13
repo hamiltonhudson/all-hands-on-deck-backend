@@ -1,16 +1,17 @@
-# All Hands On Deck - Backend README
+# All Hands On Deck - BACKEND README
 
 ## Project Overview
 
-All Hands on Deck is a card app with a Rails API backend. Players can create a new deck with the standard 52-cards, and then draw five cards from that deck in perpetuum until they're out of cards. At which point, they can (and will be prompted to!) simply create a new deck. 🃏👌🏼
+All Hands on Deck is a card app with a Rails API backend and a React frontend. Players can create a new deck with the standard 52-cards, and then draw five cards from that deck in perpetuum until they're out of cards. At which point, they can (and will be prompted to!) simply create a new deck. 🃏👌🏼
 
-##GettingStarted
+## GettingStarted
+
 ### Installing
 
 Clone down the repo and in the root of the project directory run
 
 `bundle install`
-or simply
+or just
 `bundle`
 
 to install gem dependencies. Then run
@@ -29,7 +30,7 @@ and happy card playing! 🤙🏼
 
 ## Frontend Link
 
-[all-hands-on-deck_frontend](https://github.com/ehamiltonhudson/all-hands-on-deck_frontend)
+[Frontend-AllHandsOnDeck](https://github.com/ehamiltonhudson/all-hands-on-deck_frontend)
 
 ## Demo Video
 
