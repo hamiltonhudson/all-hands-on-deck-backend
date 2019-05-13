@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1 do
+      resources :cards, only: [:create, :show, :destroy]
+      resources :decks, only: [:create, :show, :destroy]
+      get '/decks/:id/drawfive', to: 'decks#draw'
+    end
+  end
 end
