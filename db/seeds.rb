@@ -9,7 +9,7 @@
 
 DatabaseCleaner.clean_with(:truncation)
 
-@deck = Deck.create!
+@deck = Deck.create!(created: true)
 #
 @cards = [
   {rank: 'KING', suit: 'SPADES', code: 'KS'},
