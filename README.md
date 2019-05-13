@@ -1,24 +1,50 @@
-# README
+# All Hands On Deck - Backend README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Overview
 
-Things you may want to cover:
+All Hands on Deck is a card app with a Rails API backend. Players can create a new deck with the standard 52-cards, and then draw five cards from that deck in perpetuum until they're out of cards. At which point, they can (and will be prompted to!) simply create a new deck. 🃏👌🏼
 
-* Ruby version
+##GettingStarted
+### Installing
 
-* System dependencies
+Clone down the repo and in the root of the project directory run
 
-* Configuration
+`bundle install`
+or simply
+`bundle`
 
-* Database creation
+to install gem dependencies. Then run
 
-* Database initialization
+`rake db: create && rake db:migrate`
 
-* How to run the test suite
+and MAKE SURE TO RUN:
 
-* Services (job queues, cache servers, search engines, etc.)
+`rails db:seed`
 
-* Deployment instructions
+as this creates the first deck of cards, which the rest of the app is contingent upon. After that:
 
-* ...
+`rails s`
+
+and happy card playing! 🤙🏼
+
+## Frontend Link
+
+[all-hands-on-deck_frontend](https://github.com/ehamiltonhudson/all-hands-on-deck_frontend)
+
+## Demo Video
+
+[AllHandsOnDeck-DEMO.mov](https://drive.google.com/file/d/1bIxkjxcNPtMsmMya9udP75HXTL89zgec/view?usp=sharing)
+
+## Authors
+
+**Hamilton Hudson**
+
+≫ ehamiltonhudson@gmail.com<br/>
+↳ *LinkedIn*: https://www.linkedin.com/in/hamiltonhudson<br/>
+↳ *Website*: https://hamiltonhudson.myportfolio.com<br/>
+↳ *Blog*: https://ehhudson.wordpress.com<br/>
+↳ *Twitter*: https://twitter.com/HamiltonHudson
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE) file for details.
