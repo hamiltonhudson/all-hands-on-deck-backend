@@ -31,7 +31,7 @@ gem 'rack-cors'
 #Use AMS to specify the shape of our JSON response
 gem 'active_model_serializers', '~> 0.10.0'
 
-#clean database without affecting schema in order to re-seed
+#clear database in order to re-seed with clean db
 gem 'database_cleaner', '~> 1.7'
 
 gem 'rb-readline', '~> 0.5.3'
